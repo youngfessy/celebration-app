@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Celebration App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form id="nameForm" class="form">
+      <h1>What's your child's name?</h1>
+      <input type="text" id="nameInput" required />
+      <button type="submit">Go!</button>
+    </form>
+
+    <div id="celebration" class="hidden">
+      <h2 id="phraseText"></h2>
+      <div id="lottieContainer"></div>
+      <button id="againBtn">Celebrate Again</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lottie-web/build/player/lottie.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
